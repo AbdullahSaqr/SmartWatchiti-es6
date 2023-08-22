@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #FBEAFF;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00C9A7;
+}
+
+#duration {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#myName {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #845EC2;
+}
+
+.milliseconds-sty{
+    color: #FF8066;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
